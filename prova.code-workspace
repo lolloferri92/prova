@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "prova",
+			"path": "."
+		},
+		{
+			"name": "originale",
+			"path": "../originale"
+		}
+	],
+
+    "settings": {
+        "sync-rsync.remote": [
+            {
+                "localPath": ".",
+                "remotePath": "root@192.168.0.100:/root/prova/"
+            }
+        ]
+    }
+}
